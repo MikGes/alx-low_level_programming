@@ -1,12 +1,13 @@
-#include <stdio.h>
-
+#include <studio.h>
 /**
- * main - Entry point
- *  
- * Return:0 after printing the function 
- */
+*main-print the string
+*
+*Description:using the main function
+*this program prints "Programming is like building a multilingual puzzle
+*Return 0;
+*/
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+	printf("with proper grammar, but the outcome is a piece of art,");
+	return 0;
 }
