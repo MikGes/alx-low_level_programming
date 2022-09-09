@@ -16,5 +16,6 @@ for (i = 0 ; i <= 9 ; i++)
 		putchar(' ');
 	}
 }
-	return (0);
+putchar('\n');
+return (0);
 }
