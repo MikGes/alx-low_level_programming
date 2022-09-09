@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
 *main - print alphabet
@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	auto i;
+	unsigned char i;
 
 for (i = '0' ; i < '10' ; i++)
 	putchar(i);
