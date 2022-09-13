@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m'This is a commit on 0x02 fuction loop and nest project'
+git push
