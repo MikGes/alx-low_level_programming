@@ -31,6 +31,6 @@ for (i = 0; i < 10 ; i++)
 				_putchar((k % 10) + '0');
 			}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 }
