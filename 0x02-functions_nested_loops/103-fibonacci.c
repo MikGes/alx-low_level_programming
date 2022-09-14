@@ -22,6 +22,6 @@ for (i = 1; i <= 33; ++i)
 	j = k;
 	k = next;
 }
-	printf("%d\n", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
