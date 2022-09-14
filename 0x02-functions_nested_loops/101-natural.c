@@ -13,7 +13,7 @@ for (i = 3; i < 1024; i++)
 	if (i % 5 == 0 || i % 3 == 0)
 		sum = sum + i;
 }
-	putchar(sum + '0');
+	printf(sum);
 	putchar('\n');
 	return (0);
 }
