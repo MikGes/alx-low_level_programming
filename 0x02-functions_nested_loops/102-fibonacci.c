@@ -2,7 +2,7 @@
 /**
  * main - prints the first 50 fibonnaci
  * followesd by a new line
- * Return: 0(success) 
+ * Return: 0(success)
  */
 int main(void)
 {
@@ -14,11 +14,11 @@ for (i = 1; i <= 50; ++i)
 {
 	if (j != 20365011074)
 	{
-		printf("%ld",j);
+		printf("%ld", j);
 	}
 		else
 		{
-			printf("%ld\n",j);
+			printf("%ld\n", j);
 		}
 	next = j + k;
 	j = k;
