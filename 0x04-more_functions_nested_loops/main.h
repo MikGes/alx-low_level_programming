@@ -4,6 +4,8 @@
 #include <stdio.h>
 
 int _isupper(int c);
+void print_diagonal(int n);
+void print_square(int size);
 void more_numbers(void);
 void print_line(int n);
 int _putchar(char c);
