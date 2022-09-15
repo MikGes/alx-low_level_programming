@@ -13,23 +13,19 @@ if (n == 0 || n < 0)
 }
 else
 {
-	for (int i = 0; i < n; i++)
-	{
-		else if (i == 0)
-		{
-			_putchar('\\');
-		}
-		else
-		{
-			int j;
+	int i, j;
 
-			for (j = 1; j <= i; j++)
-			{
-				_putchar(' ');
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < n; j++)
+		{
+			if (j == i)
 				_putchar('\\');
-			}
-			_putchar('\n');
+			else if (j < i)
+				_putchar(' ');
 		}
+		_putchar('\n');
 	}
+
 }
 }
