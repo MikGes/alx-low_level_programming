@@ -1,5 +1,4 @@
 #include "main.h"
-#include<stdio.h>
 
 /**
  * print_diagonal - prints diagonal for n times
@@ -28,7 +27,7 @@ else
 			for (j = 1; j <= i; j++)
 			{
 				_putchar(' ');
-				_ptchar('\\');
+				_putchar('\\');
 			}
 			_putchar('\n');
 		}
