@@ -4,7 +4,7 @@
  * @s: string to be performed on
  *Return: the resulting string
  */
-char *rot13(char *)
+char *rot13(char *s)
 {
 	int i, j;
 	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
