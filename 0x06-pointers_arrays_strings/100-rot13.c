@@ -1,0 +1,25 @@
+#include "main.h"
+/**
+ * rot13 - performs rot 13 in a string
+ * @s: string to be performed on
+ *Return: the resulting string
+ */
+char *rot13(char *)
+{
+	int i, j;
+	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxzyabcdefghijklm";
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		for (j = 0; a[j] != '\0'; j++)
+		{
+			if (s[i] == a[j])
+			{
+				s[i] = b[j];
+				break;
+			}
+		}
+	}
+	return (s);
+}
