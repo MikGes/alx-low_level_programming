@@ -1,10 +1,10 @@
 #include "main.h"
 int squareroot(int n, int i);
 
-/*
+/**
  * _sqrt_recursion - computes the square root of a number
  * @n: numebr to calculate the square root
- * Return: the square root value
+ * Return:the square root value
  */
 int _sqrt_recursion(int n)
 {

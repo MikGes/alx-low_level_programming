@@ -1,4 +1,5 @@
 #include "main.h"
+int prime(int n, int i);
 /**
  * is_prime_number - checkes if a numebr is prime or not
  * @n: numebr to be evaluated
