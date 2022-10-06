@@ -1,4 +1,4 @@
-#include<stdli.h>
+#include<stdlib.h>
 #include "main.h"
 /**
  * *string_nconcat - concatinates n bytes of a string to another
