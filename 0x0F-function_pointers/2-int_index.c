@@ -6,7 +6,7 @@
  * @cmp: a funtion that compares two values
  * Return: the indext of the numebr
  */
-int int_index(int *array, int size, int (*cmp)(int d))
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
