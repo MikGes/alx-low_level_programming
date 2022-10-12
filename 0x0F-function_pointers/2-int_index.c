@@ -1,4 +1,5 @@
 #include "function_pointers.h"
+#include <stdlib.h>
 /**
  * int_index - returns the index of the number
  * @array:the array to be searched on
