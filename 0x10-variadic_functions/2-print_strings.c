@@ -24,10 +24,8 @@ printf("%s", str);
 else if (separator && i == 0)
 printf("%s", str);
 else
-}
 printf("%s%s", separator, str);
-
+}
 printf("\n");
-
 va_end(list);
 }
